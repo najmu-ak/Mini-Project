@@ -10,7 +10,7 @@ WebcamIsUsing=False
 if WebcamIsUsing: 
     cap=cv2.VideoCapture(0)
 else:
-    cap=cv2.VideoCapture("highway1.mp4")
+    cap=cv2.VideoCapture("video/highway1.mp4")
 
 while True:
     _,img=cap.read()
